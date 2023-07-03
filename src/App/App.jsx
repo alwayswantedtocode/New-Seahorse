@@ -22,8 +22,16 @@ const router = createHashRouter(
 
 const App = () => {
   return (
+    // <>
+    //   <RouterProvider router={router}></RouterProvider>
+    // </>
     <>
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}>
+        <Router>
+          <Navbar />
+          <Routes>{/* Add your routes here */}</Routes>
+        </Router>
+      </RouterProvider>
     </>
   );
 };
