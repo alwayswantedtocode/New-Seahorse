@@ -6,12 +6,13 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
+  createHashRouter,
 } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import NavLayout from "../SharedLayout/NavLayout";
 import Home from "../Pages/HomePage/HomePage";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<NavLayout />}>
       <Route index element={<Home />}></Route>
