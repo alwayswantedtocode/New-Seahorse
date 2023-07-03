@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
+  HashRouter,
 } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import NavLayout from "../SharedLayout/NavLayout";
@@ -21,9 +22,9 @@ const router = createBrowserRouter(
 
 const App = () => {
   return (
-    <>
+    <HashRouter base="/">
       <RouterProvider router={router}></RouterProvider>
-    </>
+    </HashRouter>
   );
 };
 
