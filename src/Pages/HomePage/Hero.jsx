@@ -2,7 +2,9 @@ import React from "react";
 import data from "./data";
 import { BiSearchAlt2 } from "react-icons/bi";
 import hero from "../../Svg.images/hero.svg";
+import { useGlobalContext } from "../../GlobalContext";
 const Hero = () => {
+   const {revealMenu}=useGlobalContext()
   const filterdata = data.filter((item) => item.id < 5);
   return (
     <article className="Hero-cont md:flex w-[100%] pt-[1rem] justify-between items-stretch self-end leading-9">

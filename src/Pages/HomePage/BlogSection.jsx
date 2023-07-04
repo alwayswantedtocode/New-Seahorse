@@ -3,19 +3,19 @@ import React from "react";
 const BlogSection = () => {
   const blogInfo = [
     {
-      image: "Images/Blog/blog-1.png",
+      image: "Images/Blog/Blog-1.png",
       title: "Lorem ipsum dolor sit amet.",
       snipet:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit voluptatum eveniet temporibus sequi unde asperiores voluptatibus, quos est laboriosam dolore aut harum, voluptates eius. Tenetur magnam ipsam rem reiciendis nesciunt repellendus illo impedit, corrupti deserunt a! Blanditiis eligendi perferendis repudiandae?",
     },
     {
-      image: "Images/Blog/blog-2.png",
+      image: "Images/Blog/Blog-2.png",
       title: "Lorem ipsum dolor sit amet.",
       snipet:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe doloribus ex adipisci dolor impedit mollitia animi earum enim ullam sapiente!",
     },
     {
-      image: "Images/Blog/blog-3.jfif",
+      image: "Images/Blog/Blog-3.jfif",
       title: "Lorem ipsum dolor sit amet.",
       snipet:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe doloribus ex adipisci dolor impedit mollitia animi earum enim ullam sapiente!",

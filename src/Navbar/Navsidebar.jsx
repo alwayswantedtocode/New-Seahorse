@@ -6,12 +6,12 @@ const Navsidebar = () => {
   const { revealMenu } = useGlobalContext();
   return (
     <aside
-      className={`fixed top-[5rem] left-0 w-full h-full z-[100] grid place-items-center transition-all duration-500 ease-in-out transform scale-100 bg-black bg-opacity-30 ${
+      className={`fixed top-[5rem] right-0 w-full h-full z-[100] grid place-items-center transition-all duration-500 ease-in-out transform scale-100 bg-black bg-opacity-30 md:hidden ${
         revealMenu ? "visible" : "invisible"
       } `}
     >
       <div
-        className={`h-[100%] w-[100%] top-0 fixed bg-gradient-to-r from-deep-dark-cyan 10%  via-blondi-deep-blue 45%  to-pacific-deep-cyan 45%... transition-all duration-500 ease-in-out ${
+        className={`h-[100%] w-[100%] top-[0rem] left-0 fixed bg-gradient-to-r from-deep-dark-cyan 10%  via-blondi-deep-blue 45%  to-pacific-deep-cyan 45%... transition-all duration-500 ease-in-out md:hidden ${
           revealMenu ? "translate-y-0" : "-translate-y-full"
         }`}
       >

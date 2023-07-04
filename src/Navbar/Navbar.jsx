@@ -8,7 +8,7 @@ import Navsidebar from "./Navsidebar";
 const Navbar = () => {
   const { revealMenu, setRevealMenu } = useGlobalContext();
   return (
-    <header className=" header w-[100%] h-[5rem] bg-gradient-to-r from-deep-dark-cyan from-10% via-blondi-deep-blue via-45% to-pacific-deep-cyan from-45%... font-slab flex  items-center justify-center bg-cyan-500 shadow-lg z-[10]">
+    <header className=" header w-[100%] h-[5rem] bg-gradient-to-r from-deep-dark-cyan from-10% via-blondi-deep-blue via-45% to-pacific-deep-cyan from-45%... font-slab flex  items-center justify-center bg-cyan-500 shadow-lg z-[10] sticky top-0">
       <nav className=" w-[97%] md:w-[90%] h-[4rem] md:mx-[3rem] flex items-center  text-base text-xl md:text-lg font-semibold ">
         {/* MenuBar */}
         <button
