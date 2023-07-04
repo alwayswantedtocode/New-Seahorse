@@ -1,4 +1,5 @@
 import React from "react";
+import DevImage from "../../Svg.images/Dev-Section-Image.png"
 
 const DevSection = () => {
   return (
@@ -31,11 +32,7 @@ const DevSection = () => {
         </div>
       </div>
       <div className="info-image w-[25rem] md:w-[30rem]">
-        <img
-          src="Images/Dev-Section-Image.png"
-          alt=""
-          className="w-[25rem] md:w-[30rem]"
-        />
+        <img src={DevImage} alt="" className="w-[25rem] md:w-[30rem]" />
       </div>
     </div>
   );

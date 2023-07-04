@@ -1,21 +1,24 @@
 import React from "react";
+import BlogOne from "../../Svg.images/Blog/Blog-1.png"
+import BlogTwo from "../../Svg.images/Blog/Blog-2.png"
+import BlogThree from "../../Svg.images/Blog/Blog-3.png";
 
 const BlogSection = () => {
   const blogInfo = [
     {
-      image: "Images/Blog/Blog-1.png",
+      image: BlogOne,
       title: "Lorem ipsum dolor sit amet.",
       snipet:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit voluptatum eveniet temporibus sequi unde asperiores voluptatibus, quos est laboriosam dolore aut harum, voluptates eius. Tenetur magnam ipsam rem reiciendis nesciunt repellendus illo impedit, corrupti deserunt a! Blanditiis eligendi perferendis repudiandae?",
     },
     {
-      image: "Images/Blog/Blog-2.png",
+      image: BlogTwo,
       title: "Lorem ipsum dolor sit amet.",
       snipet:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe doloribus ex adipisci dolor impedit mollitia animi earum enim ullam sapiente!",
     },
     {
-      image: "Images/Blog/Blog-3.jfif",
+      image: BlogThree,
       title: "Lorem ipsum dolor sit amet.",
       snipet:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe doloribus ex adipisci dolor impedit mollitia animi earum enim ullam sapiente!",
