@@ -31,7 +31,11 @@ const DevSection = () => {
         </div>
       </div>
       <div className="info-image w-[25rem] md:w-[30rem]">
-        <img src="Images/Dev-section-image.png" alt="" className="w-[25rem] md:w-[30rem]" />
+        <img
+          src="Images/Dev-Section-Image.png"
+          alt=""
+          className="w-[25rem] md:w-[30rem]"
+        />
       </div>
     </div>
   );
